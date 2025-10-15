@@ -62,7 +62,6 @@ body {
     padding: 8px 14px;
     border-radius: 8px;
     cursor: pointer;
-    font-weight: 600;
 }
 
 .nav-menu {
@@ -137,7 +136,7 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
     "grafico grafico historial"
-    "estad1 estad2 historial";
+    "accidentes1 accidentes2 historial";
     gap: 22px;
 }
 
@@ -170,8 +169,8 @@ main {
     margin-top: 14px;
 }
 
-/* ===== Estadísticas ===== */
-.estad {
+/* ===== Cuadros de estadísticas ===== */
+.cuadro-estadistica {
     background: linear-gradient(180deg,#596c7d,#5db4f2);
     border-radius: 12px;
     padding: 20px;
@@ -181,18 +180,17 @@ main {
     justify-content: center;
     align-items: flex-start;
     box-shadow: 0 6px 18px rgba(16,24,40,0.06);
-    margin-top: 28px;
     min-height: 120px;
 }
 
-.estad-numero {
+.cuadro-numero {
     font-size: 2.8rem;
     font-weight: 800;
     line-height: 1;
 }
 
-.estad1 { grid-area: estad1; }
-.estad2 { grid-area: estad2; }
+.cuadro-mes { grid-area: cuadro-mes; }
+.cuadro-anual { grid-area: cuadro-anual; }
 
 /* ===== Historial ===== */
 .historial {

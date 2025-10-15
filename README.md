@@ -36,7 +36,7 @@ La idea central fue combinar la técnica de *grid layout* con detalles visuales 
 ## 📚 Aprendizajes Clave
 
 Durante el desarrollo de esta actividad:
-- Aprendi a usar **CSS Grid** para layouts avanzados.
+- Aprendí a usar **CSS Grid** con `grid-template-areas` para layouts avanzados y visualmente claros.
 - Diseñé una interfaz adaptable inspirada en un caso real (SISV).
 
 ---
