@@ -19,13 +19,13 @@ La idea central fue combinar la técnica de *grid layout* con detalles visuales 
 ## 🛠️ Tecnologías y Recursos Utilizados
 
 ### **HTML5**
-- Uso de etiquetas semánticas como `<header>`, `<main>`, `<aside>` y `<footer>`.
+- Uso de etiquetas semánticas como `<header>`, `<main>` y `<aside>`.
 - Estructura clara para facilitar la comprensión y mantenimiento del código.
 - Menú lateral con opciones representativas del sistema SISV.
 
 ### **CSS3**
 - Implementación de **CSS Grid** para la organización principal del dashboard.
-- Aplicación de variables de color, sombras, bordes redondeados y efectos *hover*.
+- Aplicación de gradientes, sombras, bordes redondeados y efectos *hover*
 - Tipografía limpia y moderna para mayor legibilidad.
 
 ### **Recursos Externos**
@@ -36,8 +36,10 @@ La idea central fue combinar la técnica de *grid layout* con detalles visuales 
 ## 📚 Aprendizajes Clave
 
 Durante el desarrollo de esta actividad:
-- Aprendí a usar **CSS Grid** con `grid-template-areas` para layouts avanzados y visualmente claros.
-- Diseñé una interfaz adaptable inspirada en un caso real (SISV).
+- Aprendí a usar **CSS Grid** con `grid-template-areas` para crear layouts avanzados y visualmente claros.
+- Practiqué la organización de elementos con diferentes tamaños usando `grid-area`.
+- Implementé un diseño limpio y profesional inspirado en un caso real (SISV).
+- Trabajé con gradientes lineales y efectos visuales para mejorar la experiencia de usuario.
 
 ---
 

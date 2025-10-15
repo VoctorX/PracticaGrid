@@ -21,7 +21,6 @@ body {
     padding: 18px;
 }
 
-/* ===== Sidebar ===== */
 .sidebar {
     grid-area: sidebar;
     background: #2f3640;
@@ -86,7 +85,6 @@ body {
     transform: translateX(4px);
 }
 
-/* ===== Header ===== */
 .encabezado {
     grid-area: encabezado;
     background: #fff;
@@ -122,7 +120,6 @@ body {
     color: #6b7280;
 }
 
-/* ===== Contenido principal ===== */
 main {
     grid-area: contenido;
     background: #fff;
@@ -140,7 +137,6 @@ main {
     gap: 22px;
 }
 
-/* ===== Gráfico principal ===== */
 .grafico-funcion {
     grid-area: grafico;
     background: linear-gradient(180deg,#596c7d,#5db4f2);
@@ -169,8 +165,7 @@ main {
     margin-top: 14px;
 }
 
-/* ===== Cuadros de estadísticas ===== */
-.cuadro-estadistica {
+.accidentes1, .accidentes2 {
     background: linear-gradient(180deg,#596c7d,#5db4f2);
     border-radius: 12px;
     padding: 20px;
@@ -189,10 +184,13 @@ main {
     line-height: 1;
 }
 
-.cuadro-mes { grid-area: cuadro-mes; }
-.cuadro-anual { grid-area: cuadro-anual; }
+.accidentes1 {
+    grid-area: accidentes1;
+}
+.accidentes2 { 
+    grid-area: accidentes2; 
+}
 
-/* ===== Historial ===== */
 .historial {
     grid-area: historial;
     background: #2f3640;
